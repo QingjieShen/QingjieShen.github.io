@@ -34,6 +34,7 @@ color
     background-color: #FFF;
 }
 
+/*Styling the Navigation*/
 header ul {
     list-style: none;
     display: flex;
@@ -41,6 +42,7 @@ header ul {
     padding-left: 0px;
 }
 
+/*Styling the link*/
 header a:link {
     text-decoration: none;
     background-color: #00A9A0;
@@ -49,6 +51,7 @@ header a:link {
     padding: 10px 20px;
 }
 
+/*Adding hover activity the link*/
 header a:hover {
     background-color: #F0FBFF;
     color: #00A9A0;
