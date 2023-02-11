@@ -7,3 +7,7 @@ body {
 header, footer{
     background-color: #FAF7CA;
 }
+
+.heading {
+    color: #00A9A0;
+}
