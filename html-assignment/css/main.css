@@ -32,3 +32,11 @@ color
 .hobby ul li:nth-child(odd) {
     background-color: #57CFFA;
 }
+
+header ul {
+    list-style: none;
+}
+
+header a:link {
+    text-decoration: none;
+}
