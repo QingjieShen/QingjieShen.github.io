@@ -1,4 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    background-color: #F0FBFF;
+}
+
+header, footer{
+    background-color: #FAF7CA;
 }
