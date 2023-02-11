@@ -39,5 +39,6 @@ header ul {
 
 header a:link {
     text-decoration: none;
-    background-color: #F0FBFF;
+    background-color: #00A9A0;
+    border: 1px solid #DB5501;
 }
