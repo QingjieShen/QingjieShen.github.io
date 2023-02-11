@@ -11,3 +11,16 @@ header, footer{
 .heading {
     color: #00A9A0;
 }
+
+/* properties of box-shadow
+h-offect
+v-offect
+blur
+spread
+color
+*/
+#image {
+    width: 240px;
+    height: 360px;
+    box-shadow: 0px 0px 2px 1px #000;
+}
