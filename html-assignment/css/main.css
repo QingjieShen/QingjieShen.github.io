@@ -35,10 +35,13 @@ color
 
 header ul {
     list-style: none;
+    display: flex;
 }
 
 header a:link {
     text-decoration: none;
     background-color: #00A9A0;
     border: 1px solid #DB5501;
+    text-decoration-color: #FAF7CA;
+    padding: 10px 20px;
 }
