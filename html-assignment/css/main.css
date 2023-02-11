@@ -45,3 +45,8 @@ header a:link {
     text-decoration-color: #FAF7CA;
     padding: 10px 20px;
 }
+
+header a:hover {
+    background-color: #F0FBFF;
+    color: #00A9A0;
+}
