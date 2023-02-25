@@ -68,6 +68,10 @@ h2 {
 	/* font-weight: bold; */
 }
 
+h3 {
+	font-size: 26px;
+}
+
 body .navigation, main {
 	background-color: #d4e9e7;
 }
@@ -128,12 +132,12 @@ article {
 	padding: 10px;
 }
 
-.life-title h2 {
+.life h2 {
 	padding-bottom: 10px;
 }
 
 /* Set the picutre size and float on the left */
-.life-title img {
+.life img {
 	height: 228px;
 	width: 222px;
 	padding-right: 15px;
@@ -141,10 +145,21 @@ article {
 	float: left;
 }
 
+/* Clear floating of the picture to avoid wrap other elements */
 .clearfix::after{
     content: "";
     display: block;
     clear: both;
 }
 /* Life part styling end */
+
+/* Styling the facts part */
+.facts ul {
+	list-style:disc;
+	list-style-position: inside;
+	padding-left: 3px;
+	line-height: 1rem;
+}
+/* Facts part end */
+
 
