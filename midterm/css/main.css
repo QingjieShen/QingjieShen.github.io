@@ -85,6 +85,7 @@ header {
 	background-size: cover;
 	background-position: center;
 	display: flex;
+	/* z-index: 0; */
 }
 
 /* Set color and the position of head text */
@@ -107,6 +108,8 @@ header h1 {
 	padding: 0.5rem;
 	justify-content: center;
 	font-weight: bold;
+	position: relative;
+	z-index: 1;
 }
 
 .navigation a:link {
