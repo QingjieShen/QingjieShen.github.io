@@ -47,3 +47,14 @@ table {
 	border-spacing: 0;
 }
 /* End reset here */
+
+body {
+	background-color: #aad4cf;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+    line-height: 1.5;
+}
+
+body .navigation, main {
+	background-color: #d4e9e7;
+}
