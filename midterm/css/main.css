@@ -48,13 +48,44 @@ table {
 }
 /* End reset here */
 
+/* Basic font and color setting */
 body {
 	background-color: #aad4cf;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
     line-height: 1.5;
+	width: 900px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
 }
 
 body .navigation, main {
 	background-color: #d4e9e7;
 }
+
+/* Styling the header */
+header {
+	height: 300px;
+	width: 900px;
+	background-image: url(../images/lone-starfish-wide.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+
+header h1 {
+	color: #fff;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 5%);
+	text-align: center;
+}
+	
