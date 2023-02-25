@@ -214,3 +214,11 @@ article {
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
+/* End of the contact part styling */
+
+/* Styling the footer part */
+footer {
+	background-color: #d4e9e7;
+	padding: 20px;
+	text-align: right;
+}
