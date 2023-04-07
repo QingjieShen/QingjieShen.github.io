@@ -47,3 +47,34 @@ table {
 	border-spacing: 0;
 }
 /* End reset here */
+
+/* 
+logo background color: c78c02
+about part background color: ffe6ac
+team line color: c78b07
+table head color: ffe6ac
+yellow font color: c78b07
+*/
+
+/* Overall basic font setting */
+body {
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+    line-height: 1.5;
+}
+
+h1 {
+	font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 26px;
+    font-weight: bold;
+}
+/* End of basic setting */
