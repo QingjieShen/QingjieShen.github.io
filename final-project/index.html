@@ -13,9 +13,13 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header>
+    <header class="wrapper">
         <!-- icon and navigation area, mobile is vertical, and the desktop is horizontal -->
-        <img src="images/logo.png" alt="this is the logo of three Star Media">
+        <!-- add a img container to set the background color of img -->
+        <div class="img-container">
+            <img src="images/logo.png" alt="this is the logo of three Star Media">
+        </div>
+
         <nav>
             <ul>
                 <li>Home</li>
@@ -31,27 +35,27 @@
             <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
         </form>
     </header>
-    <!-- banner part, include background img, connect button and text. put wrods and connect button into a warraper -->
+    <!-- banner part, include background img, connect button and text. put wrods and connect button into a wrapper -->
     <div class="banner">
         <img src="images/main-banner.jpg" alt="main banner image">
-        <div class="warraper">
+        <div class="wrapper">
             <h1>Welcome to Three Star Media</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint modi eos ipsum assumenda suscipit, placeat, nihil et doloribus nulla ducimus minus beatae accusamus eius porro officia ea dignissimos accusantium quas.</p>
             <!-- the triangle on the button also comes from kit  -->
             <button class="connect">Connect with us <i class="fa-sharp fa-solid fa-play"></i></button>
         </div>
     </div>
-    <!-- About Us part, put words and pictures inside a warraper -->
+    <!-- About Us part, put words and pictures inside a wrapper -->
     <div class="about">
-        <div class="warraper">
+        <div class="wrapper">
             <img src="images/about-us.jpg" alt="image about us">
             <h2>About Us</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorum facere doloremque sapiente fugit praesentium ut quidem doloribus maxime eaque explicabo accusamus, minima laboriosam accusantium, ex recusandae adipisci distinctio iusto.</p>
             <p>Rem labore excepturi aliquid. Ullam eius ab beatae porro nesciunt, dolores alias eveniet repudiandae totam voluptates! Aliquam porro dolorum, consectetur quo corporis nemo accusantium enim nihil suscipit. Quia, autem sequi!</p>
         </div>
     </div>
-    <!-- Services part. With 5 different kinds of service, different layout in mobile and desketop, but all inside warraper  -->
-    <div class="service warraper">
+    <!-- Services part. With 5 different kinds of service, different layout in mobile and desketop, but all inside wrapper  -->
+    <div class="service wrapper">
         <h2>Our Services</h2>
         <section class="digitalsvc svc">
             <img src="images/digital.jpg" alt="image of digital service">
@@ -89,17 +93,17 @@
             <button class="printbtn">Print Plans<i class="fa-sharp fa-solid fa-play"></i></button>
         </section>
     </div>
-    <!-- Vision part, put the text and button into the warraper -->
+    <!-- Vision part, put the text and button into the wrapper -->
     <div class="vision">
         <img src="images/vision.jpg" alt="background image of vision">
-        <div class="warraper">
+        <div class="wrapper">
             <h3>Our Vision</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium facilis doloremque distinctio eveniet, inventore, odit, velit dolor qui cupiditate dolorum illo cum eum iure quis obcaecati recusandae maiores vitae repudiandae.</p>
             <button class="learnmorebtn">Learn More <i class="fa-sharp fa-solid fa-play"></i></button>
         </div>
     </div>
-    <!-- Team part, different layout in mobile version and desketop version. All in warraper -->
-    <div class="team warraper">
+    <!-- Team part, different layout in mobile version and desketop version. All in wrapper -->
+    <div class="team wrapper">
         <H2>Our Team</H2>
         <div class="member1">
             <img src="images/john.jpg" alt="picture of john">
@@ -115,7 +119,7 @@
         </div>
     </div>
     <!-- Contact Us part. Needs google map. All in warrper -->
-    <div class="contactus warraper">
+    <div class="contactus wrapper">
         <h2>Contact Us</h2>
         <h3>Send us a message</h3>
         <form action="index.html" method="get">
@@ -160,8 +164,8 @@
             </tbody>
         </table>
     </div>
-    <!-- footer part also in warraper -->
-    <Footer class="warraper">
+    <!-- footer part also in wrapper -->
+    <Footer class="wrapper">
         <p>&copy; Copyright Three Star Media, 2020</p>
         <p>All images are taken from <a href="https://unsplash.com/" target="_blank"> Unsplash</a></p>
     </Footer>

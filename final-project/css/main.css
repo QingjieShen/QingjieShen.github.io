@@ -78,3 +78,35 @@ h3 {
     font-weight: bold;
 }
 /* End of basic setting */
+
+.wrapper {
+    /* width: 760px; */
+    margin: 0 auto;
+}
+
+/* Styling the header */
+.img-container {
+    background-color: #c78c06;
+    height: 120px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header nav li {
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav li:nth-child(1) {
+    width: 100%;
+    background-color: #c78c06;
+}
