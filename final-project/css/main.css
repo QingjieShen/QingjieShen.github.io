@@ -59,7 +59,7 @@ yellow font color: c78b07
 /* Overall basic font setting */
 body {
     font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
     line-height: 1.5;
 }
 
@@ -87,6 +87,7 @@ h3 {
 /* Styling the header */
 header {
     background-color: black;
+    padding: 0 10px;
 }
 
 .img-container {
@@ -116,4 +117,20 @@ header nav li:nth-child(1) {
     width: 100%;
     background-color: #c78c06;
     color: black;
+}
+
+/* Styling the search bar */
+input[type="search"] {
+    /* calc of the width is to make sure the search button always have a square area */
+    width:calc(100% - 40px);
+    height: 40px;
+    margin-right: 0;
+}
+
+header form label i {
+    color: #c78c06;
+    font-size: 1.2rem;
+    border: 1px solid #c78c06;
+    padding: 6px;
+    margin-left: 0;
 }
