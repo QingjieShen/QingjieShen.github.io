@@ -85,9 +85,14 @@ h3 {
 }
 
 /* Styling the header */
+header {
+    background-color: black;
+}
+
 .img-container {
     background-color: #c78c06;
     height: 120px;
+    padding-top: 20px;
 }
 
 header nav {
@@ -104,9 +109,11 @@ header nav ul {
 header nav li {
     padding: 20px 0;
     text-align: center;
+    color: #c78c06;
 }
 
 header nav li:nth-child(1) {
     width: 100%;
     background-color: #c78c06;
+    color: black;
 }
