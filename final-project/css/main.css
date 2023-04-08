@@ -124,13 +124,48 @@ input[type="search"] {
     /* calc of the width is to make sure the search button always have a square area */
     width:calc(100% - 40px);
     height: 40px;
-    margin-right: 0;
+    margin-bottom: 15px;
 }
 
 header form label i {
     color: #c78c06;
     font-size: 1.2rem;
     border: 1px solid #c78c06;
-    padding: 6px;
-    margin-left: 0;
+    padding: 7px;
+    margin: 0;
+}
+
+/* Styling the banner part */
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    /* set opacaty of background */
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+.banner-content h1 {
+    font-size: 4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.connect {
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: #c78c06;
+}
+
+.connect i {
+    padding-left: 10px;
 }
