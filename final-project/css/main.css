@@ -289,3 +289,83 @@ header form label i {
 .team p {
     margin: 10px 0;
 }
+
+/* Styling the contart part */
+.contactus {
+    display: grid;
+    grid-template-areas: 
+    "contacdhead"
+    "sendmessage"
+    "operation"
+    "location"
+    ;
+}
+
+.contactus h2 {
+    grid-area: contacdhead;
+    margin-top: 20px;
+}
+
+.contactus h3 {
+    margin-top: 10px;
+}
+
+.sendmessage {
+    grid-area: sendmessage;
+}
+
+.sendmessage label {
+    display: block;
+    margin-top: 10px;
+}
+
+.sendmessage input {
+    display: block;
+    width: 100%;
+}
+
+.sendmessage textarea {
+    width: 100%;
+}
+
+.sendmessage button {
+    color: #c78c06;
+    background-color: black;
+    font-size: 1.2rem;
+}
+
+.operation {
+    grid-area: operation;
+}
+
+.operation table, .operation th, .operation td {
+    border: 1px solid #000;
+}
+
+.operation th, .operation td {
+    padding: 10px;
+}
+
+.operation th {
+    background-color: #ffe6ac;
+    text-align: center;
+}
+
+.operation td {
+    text-align: left;
+}
+
+.operation table {
+    width: 100%;
+}
+
+.location {
+    grid-area: location;
+}
+
+.locationmap {
+    width: 100%;
+    height: 400px;
+}
+
+
