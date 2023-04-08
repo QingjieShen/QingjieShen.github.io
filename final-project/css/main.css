@@ -184,3 +184,70 @@ header form label i {
 .about p {
     padding: 10px 0;
 }
+
+/* Styling the service part */
+.service {
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: 
+    "svchead"
+    "digital"
+    "marketing"
+    "video"
+    "webdev"
+    "print"
+    ;
+}
+
+.service h2 {
+    grid-area: svchead;
+}
+
+.digitalsvc {
+    grid-area: digital;
+}
+
+.marketingsvc {
+    grid-area: marketing;
+}
+
+.videosvc {
+    grid-area: video;
+}
+
+.webdevsvc {
+    grid-area: webdev;
+}
+
+.printsvc {
+    grid-area: print;
+}
+
+/* Styling the same part of all service */
+.svc {
+    background-color: #ffe6ac;
+    margin-top: 10px;
+}
+
+.svc img {
+    width: 100%;
+}
+
+.svc h3 {
+    padding: 20px 10px 10px 10px;
+}
+
+.svc p {
+    padding: 0 10px 10px 10px;
+}
+
+.svc button {
+    margin: 10px;
+    padding: 20px 23px;
+    background-color: black;
+    color: white;
+}
+
+.svc button i {
+    margin-left: 10px;
+}
