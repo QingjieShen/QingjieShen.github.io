@@ -80,14 +80,14 @@ h3 {
 /* End of basic setting */
 
 .wrapper {
-    /* width: 760px; */
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 /* Styling the header */
 header {
     background-color: black;
-    padding: 0 10px;
+    /* padding: 0 10px; */
 }
 
 .img-container {
@@ -150,7 +150,6 @@ header form label i {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     margin-top: 40px;
-    padding-left: 20px;
 }
 
 .banner-content h1 {
@@ -161,11 +160,27 @@ header form label i {
 
 .connect {
     margin: 10px 0;
-    padding: 20px;
-    font-size: 1.5rem;
+    padding: 30px;
+    font-size: 1.2rem;
     background-color: #c78c06;
 }
 
 .connect i {
     padding-left: 10px;
+}
+
+/* Styling the about part */
+
+.about {
+    background-color: #ffe6ac;
+    padding-bottom: 20px;
+}
+
+.about img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.about p {
+    padding: 10px 0;
 }
