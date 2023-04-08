@@ -190,44 +190,8 @@ header form label i {
 .service {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
-
-/* .service {
-    margin-top: 20px;
-    display: grid;
-    grid-template-areas: 
-    "svchead"
-    "digital"
-    "marketing"
-    "video"
-    "webdev"
-    "print"
-    ;
-}
-
-.service h2 {
-    grid-area: svchead;
-}
-
-.digitalsvc {
-    grid-area: digital;
-}
-
-.marketingsvc {
-    grid-area: marketing;
-}
-
-.videosvc {
-    grid-area: video;
-}
-
-.webdevsvc {
-    grid-area: webdev;
-}
-
-.printsvc {
-    grid-area: print;
-} */
 
 /* Styling the same part of all service */
 .svc {
@@ -274,4 +238,54 @@ header form label i {
 }
 
 
-/* Styling the Team part */
+/* Styling the Team part. Use grid*/
+.team {
+    display: grid;
+    grid-template-areas: 
+    "teamhead"
+    "member1-img"
+    "member1-info"
+    "member2-img"
+    "member2-info"
+    ;
+}
+
+.team h2 {
+    grid-area: teamhead;
+    margin-bottom: 10px;
+}
+
+.member1-img {
+    grid-area: member1-img;
+}
+
+.member1-info {
+    grid-area: member1-info;
+}
+
+.member2-img {
+    grid-area: member2-img;
+}
+
+.member2-info {
+    grid-area: member2-info;
+}
+
+.member1-info, .member2-info {
+    background-color: #ffe6ac;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+.team img {
+    width: 100%;
+}
+
+.team h5 {
+    font-weight: bold;
+    border-bottom: 2px solid #c78c06;
+}
+
+.team p {
+    margin: 10px 0;
+}
