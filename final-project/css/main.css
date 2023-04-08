@@ -186,7 +186,13 @@ header form label i {
 }
 
 /* Styling the service part */
+
 .service {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .service {
     margin-top: 20px;
     display: grid;
     grid-template-areas: 
@@ -221,7 +227,7 @@ header form label i {
 
 .printsvc {
     grid-area: print;
-}
+} */
 
 /* Styling the same part of all service */
 .svc {
@@ -266,3 +272,6 @@ header form label i {
     position: absolute;
     color: white;
 }
+
+
+/* Styling the Team part */
