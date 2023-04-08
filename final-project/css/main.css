@@ -251,3 +251,18 @@ header form label i {
 .svc button i {
     margin-left: 10px;
 }
+
+/* Styling the vision part */
+.vision {
+    position: relative;
+    margin: 20px 0;
+}
+
+.vision img {
+    width: 100%;
+}
+
+.vision-content {
+    position: absolute;
+    color: white;
+}
