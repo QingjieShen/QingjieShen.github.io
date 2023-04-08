@@ -368,4 +368,80 @@ header form label i {
     height: 400px;
 }
 
+/* Styling the footer */
+footer {
+    background-color: #000;
+    color: #c78c06;
+    margin-top: 20px;
+}
 
+footer p:nth-child(1) {
+    padding: 20px 10px 0 10px;
+}
+
+footer p:nth-child(2) {
+    padding: 10px 10px 20px 10px;
+}
+
+/* Styles for screens 760px and above */
+@media screen and (min-width: 760px) {
+    
+    /* Styling the header */
+    header {
+        display: flex;
+    }
+
+    .img-container {
+        background-color: transparent;
+        padding-left: 10px;
+        margin-right: 40px;
+    }
+
+    header nav {
+        display: inline-block;
+        vertical-align: middle;
+    } 
+
+    header nav ul {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        color: #c78c06;
+    }
+
+    header nav ul li:nth-child(1) {
+        display: inline-block;
+        background-color: #c78c06;
+        color: black;
+        width: 60px;
+    }
+
+
+/* Styling the search bar */
+input[type="search"] {
+    width: 120px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+header form label i {
+    color: #c78c06;
+    font-size: 1.2rem;
+    border: 1px solid #c78c06;
+    padding: 7px;
+    margin: 0;
+}
+
+}
+
+/* sytles for screens over 1200px */
+@media screen  and (min-width:1200px) {
+    .wrapper {
+        max-width: 1200px;
+    }
+}
