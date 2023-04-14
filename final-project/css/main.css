@@ -223,8 +223,10 @@ header form label i {
 .vision {
     background-image: url(../images/vision.jpg);
     background-size: cover;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
 
@@ -234,6 +236,13 @@ header form label i {
 
 .vision-content {
     /* position: absolute; */
+    color: white;
+}
+
+.vision-content button {
+    margin: 10px 0 0 0;
+    padding: 20px 23px;
+    background-color: black;
     color: white;
 }
 
