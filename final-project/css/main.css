@@ -171,6 +171,7 @@ header form label i {
 .about {
     background-color: #ffe6ac;
     padding-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .about img {
@@ -230,10 +231,6 @@ header form label i {
     
 }
 
-.vision img {
-    width: 100%;
-}
-
 .vision-content {
     /* position: absolute; */
     color: white;
@@ -246,6 +243,9 @@ header form label i {
     color: white;
 }
 
+.vision-content h3 {
+    margin-bottom: 10px;
+}
 
 /* Styling the Team part. Use grid*/
 .team {
