@@ -516,6 +516,10 @@ footer p:nth-child(2) {
         margin-right: 20px;
     }
 
+    .operation {
+        margin-bottom: 10px;
+    }
+
 }
 
 /* sytles for screens over 1200px */
