@@ -492,20 +492,28 @@ footer p:nth-child(2) {
     .team {
         display: grid;
         grid-template-areas: 
-        "teamhead" "teamhead"
-        "member1-img" "member1-info"
-        "member2-img" "member2-info"
+        "teamhead teamhead"
+        "member1-img member1-info"
+        "member2-info member2-img"
         ;
+    }
+
+    .member1-info, .member2-info {
+        margin-bottom: 0;
     }
     
     /* Styling the contact part */
     .contactus {
         display: grid;
         grid-template-areas: 
-        "contacdhead" "contacdhead"
-        "sendmessage" "location"
-        "operation" "operation"
+        "contacdhead contacdhead"
+        "sendmessage location"
+        "operation operation"
         ;
+    }
+
+    .sendmessage {
+        margin-right: 20px;
     }
 
 }
