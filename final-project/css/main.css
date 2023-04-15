@@ -120,25 +120,32 @@ header nav li:nth-child(1) {
 }
 
 /* Styling the search bar */
+
+.header-container form {
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
 input[type="search"] {
     /* calc of the width is to make sure the search button always have a square area */
     width:calc(100% - 40px);
     height: 40px;
-    margin-bottom: 15px;
+    text-align: center;
 }
 
 header form label i {
     color: #c78c06;
     font-size: 1.2rem;
     border: 1px solid #c78c06;
-    padding: 7px;
-    margin: 0;
+    padding: 10px;
 }
 
 /* Styling the banner part */
 .banner {
     background-image: url(../images/main-banner.jpg);
     background-size: cover;
+    background-position: center center;
     padding-top: 58px;
     padding-bottom: 58px;
 }
@@ -224,6 +231,7 @@ header form label i {
 .vision {
     background-image: url(../images/vision.jpg);
     background-size: cover;
+    background-position: center center;
     padding-top: 20px;
     padding-bottom: 10px;
     margin-top: 20px;
@@ -394,24 +402,26 @@ footer p:nth-child(2) {
 
 /* Styles for screens 760px and above */
 @media screen and (min-width: 760px) {
-    /* Styling the header */
-    header {
+     /* Styling the header */
+     .header-container {
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        justify-content: space-between;
     }
 
     .img-container {
+        /* reset the background color of img */
         background-color: transparent;
     }
 
-    header nav {
-        width: 500px;
+    .header-container form {
+        padding: 0;
     }
 
     header nav ul {
         display: flex;
         justify-content: space-between;
+        margin: auto 10px;
     }
 
     header nav ul li {
@@ -425,7 +435,6 @@ footer p:nth-child(2) {
         background-color: #c78c06;
         color: black;
     }
-
 
     /* Styling the search bar */
     input[type="search"] {
@@ -443,7 +452,7 @@ footer p:nth-child(2) {
 
     /* Styling the about us part */
     .about img {
-        width: 50%;
+        width: 49%;
         padding-top: 10px;
         float: left;
         margin-right: 10px;
