@@ -478,14 +478,27 @@ footer p:nth-child(2) {
         align-items: stretch;
     }
 
+    .digitalsvc {
+        margin-right: 5px;
+    }
+
+    .marketingsvc {
+        margin-left: 5px;
+    }
+
     .digitalsvc, .marketingsvc {
-        flex-shrink: 1;
-        flex-basis: 48%;
+        /* flex-shrink: 1; */
+        flex-basis: calc((100% - 10px)/2);
+    }
+
+    .webdevsvc {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .videosvc, .webdevsvc, .printsvc {
-        flex-shrink: 1;
-        flex-basis: 32%;
+        /* flex-shrink: 1; */
+        flex-basis: calc((100% - 20px)/3);
         
     }
 
