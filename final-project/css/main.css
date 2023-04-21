@@ -404,7 +404,7 @@ footer p:nth-child(2) {
      .header-container {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .img-container {
@@ -425,12 +425,11 @@ footer p:nth-child(2) {
 
     header nav ul {
         display: flex;
-        justify-content: space-between;
-        margin: auto 10px;
+        justify-content: space-evenly;
     }
 
     header nav ul li {
-        padding: 10px 10px;
+        padding: 10px 14px;
         text-align: center;
         color: #c78c06;
     }
