@@ -82,9 +82,10 @@ h3 {
 .wrapper {
     margin: 0 auto;
     padding: 0 10px;
+    max-width: 1200px;
 }
 
-/* Styling the header */
+/* Styling the header just list it on mobile version*/
 header {
     background-color: #222;
     /* padding: 0 10px; */
@@ -140,7 +141,7 @@ header form label i {
     padding: 10px;
 }
 
-/* Styling the banner part */
+/* Styling the banner part, set background img to creat bleeding effect */
 .banner {
     background-image: url(../images/main-banner.jpg);
     background-size: cover;
@@ -173,7 +174,7 @@ header form label i {
     padding-left: 10px;
 }
 
-/* Styling the about us part */
+/* Styling the about us part, make sure the background can have a bleeding effect */
 .about {
     background-color: #ffe6ac;
     padding-bottom: 20px;
@@ -225,7 +226,7 @@ header form label i {
     margin-left: 10px;
 }
 
-/* Styling the vision part */
+/* Styling the vision part. Set background img to creat bleeding effect*/
 .vision {
     background-image: url(../images/vision.jpg);
     background-size: cover;
@@ -253,7 +254,7 @@ header form label i {
     margin-bottom: 10px;
 }
 
-/* Styling the Team part. Use grid*/
+/* Styling the Team part. Use grid area*/
 .team {
     display: grid;
     grid-template-areas: 
@@ -400,7 +401,7 @@ footer p:nth-child(2) {
 
 /* Styles for screens 760px and above */
 @media screen and (min-width: 760px) {
-     /* Styling the header */
+     /* Styling the header. Use flext to make the display in a row */
      .header-container {
         display: flex;
         align-items: center;
@@ -469,7 +470,7 @@ footer p:nth-child(2) {
         clear: both;
     }
 
-    /* Styling the service part */
+    /* Styling the service part. Use flexbox here */
     .service {
         display: flex;
         flex-wrap: wrap;
@@ -540,8 +541,8 @@ footer p:nth-child(2) {
 }
 
 /* sytles for screens over 1200px */
-@media screen  and (min-width:1200px) {
+/* @media screen  and (min-width:1200px) {
     .wrapper {
         max-width: 1200px;
     }
-}
+} */
